@@ -1,0 +1,68 @@
+.audio{
+    grid-column:2/3;
+    display: grid;
+
+    grid-column: 1fr;
+    align-content: center;
+    // justify-items: center;
+    
+
+    
+}
+
+
+
+.played{
+    height: 100%;
+    background-color: rgb(70, 245, 17);
+    position: absolute;
+    top: 0;
+    transition: all .2s;
+    border-radius: 15px;
+}
+.start__time{
+    position: absolute;
+    top: 1rem;
+    left: 0
+}
+.end__time{
+    position: absolute;
+    top: 1rem;
+    right: 0;
+}
+.controls{
+    justify-self: center;
+    margin-top: 4rem;
+
+}
+
+.btn{
+
+
+    &__play,
+    &__pause{
+        outline: none;
+        border: 2px rgb(70, 245, 17) solid;
+        border-radius: 200px;
+        
+        height: 9rem;
+        width: 9rem;
+        background-color: rgba(10, 248, 30, 0.239);
+        cursor: pointer;
+        & i {
+            text-align: center;
+        
+        }
+
+
+        
+
+    }
+}
+
+
+
+
+
+
+

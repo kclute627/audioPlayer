@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+
+
+*::after,
+*::before{
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+
+html{
+  font-size: 62.5%;
+  margin: 0;
+  padding: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  
+}
+body{
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.7;
+  
+  
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+
+}
+
+.App{
+  display: grid;
+  grid-template-columns: 1rem minmax(90rem, 1fr) 1rem;
+  grid-template-rows: 1fr;
+}
